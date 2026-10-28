@@ -235,3 +235,14 @@ dialog.sheet::backdrop{background:rgba(8,16,30,.66);backdrop-filter:blur(2px)}
  .sheet .btnrow .btn{flex:1 1 100%}
 }
 a.cat.hipb{display:grid;grid-template-columns:1.1fr 1fr;align-items:center}a.cat.hipb .ph{height:190px}@media(max-width:760px){a.cat.hipb{grid-template-columns:1fr}a.cat.hipb .ph{height:130px;order:-1}}
+
+.igrid{display:grid;gap:12px;grid-template-columns:repeat(5,1fr);margin:10px 0 6px}
+.ic2{background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
+.ic2 .im{height:150px;display:flex;align-items:center;justify-content:center;padding:8px;background:#fff;border-bottom:1px solid var(--line);cursor:zoom-in}
+.ic2 .im img{max-height:100%;max-width:100%;object-fit:contain}
+.ic2 .tx{padding:10px 12px 12px}
+.ic2 b{display:block;font-size:14.5px;color:var(--navy);line-height:1.3}
+.ic2 .d{display:block;font-size:12.5px;color:#44546e;margin:2px 0 6px;line-height:1.4}
+.ic2 .pn{display:block;font-family:Consolas,monospace;font-size:12px;color:#243b5e;background:#eef2f8;border-radius:6px;padding:3px 7px;margin-top:4px;white-space:normal;word-break:break-all}
+@media(max-width:1000px){.igrid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:760px){.igrid{grid-template-columns:repeat(2,1fr);gap:9px}.ic2 .im{height:120px}.ic2 b{font-size:13.5px}}

@@ -2,7 +2,7 @@
 document.querySelectorAll('table').forEach(function(t){if(!t.parentElement.classList.contains('tablewrap')){var w=document.createElement('div');w.className='tablewrap';t.parentNode.insertBefore(w,t);w.appendChild(t);}});
 var lb=document.getElementById('lb');
 document.addEventListener('click',function(e){
- var f=e.target.closest('.fig img,.heroimg img,.big img');
+ var f=e.target.closest('.fig img,.heroimg img,.big img,.ic2 img');
  if(f&&lb){lb.querySelector('img').src=f.src;lb.classList.add('on');return}
  if(lb&&lb.classList.contains('on')){lb.classList.remove('on')}
 });

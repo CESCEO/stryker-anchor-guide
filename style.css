@@ -234,3 +234,4 @@ dialog.sheet::backdrop{background:rgba(8,16,30,.66);backdrop-filter:blur(2px)}
  .filters{padding:6px 0 2px}.frow{padding:2px 0}
  .sheet .btnrow .btn{flex:1 1 100%}
 }
+a.cat.hipb{display:grid;grid-template-columns:1.1fr 1fr;align-items:center}a.cat.hipb .ph{height:190px}@media(max-width:760px){a.cat.hipb{grid-template-columns:1fr}a.cat.hipb .ph{height:130px;order:-1}}
